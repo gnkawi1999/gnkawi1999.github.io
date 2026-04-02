@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fayee Limited | Curated Lifestyle & Digital Retail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), 
+                        url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .accent-color { color: #D4A373; }
+        .bg-accent { background-color: #D4A373; }
+    </style>
+</head>
+<body class="bg-white text-stone-800 font-sans">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-100">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <span class="text-2xl font-light tracking-[0.3em] text-stone-900 uppercase">Fayee<span class="font-bold accent-color">.</span></span>
+            </div>
+            <div class="hidden md:flex space-x-12 text-xs font-bold uppercase tracking-widest text-stone-500">
+                <a href="#home" class="hover:text-stone-900 transition">Beranda</a>
+                <a href="#vision" class="hover:text-stone-900 transition">Visi</a>
+                <a href="#services" class="hover:text-stone-900 transition">Layanan</a>
+                <a href="#contact" class="hover:text-stone-900 transition">Kontak</a>
+            </div>
+            <div class="flex items-center gap-5">
+                <i class="fas fa-search text-sm"></i>
+                <i class="fas fa-shopping-bag text-sm"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-bg h-screen flex items-center px-6">
+        <div class="max-w-7xl mx-auto w-full">
+            <div class="max-w-2xl">
+                <h2 class="accent-color font-bold tracking-[0.5em] uppercase text-xs mb-6">London Based Digital Retail</h2>
+                <h1 class="text-6xl md:text-8xl font-light mb-8 leading-tight tracking-tighter text-stone-900">
+                    Definisi Baru <br><span class="font-serif italic">Belanja Digital.</span>
+                </h1>
+                <p class="text-lg text-stone-500 mb-10 leading-relaxed max-w-md font-light">
+                    Fayee Limited menghadirkan kurasi produk gaya hidup terbaik melalui platform e-commerce yang mengutamakan kualitas, estetika, dan kemudahan akses global.
+                </p>
+                <div class="flex gap-6">
+                    <a href="#services" class="bg-stone-900 text-white px-10 py-4 text-xs font-bold uppercase tracking-widest hover:bg-stone-700 transition">
+                        Eksplorasi Koleksi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="vision" class="py-32 px-6 bg-[#FAF9F6]">
+        <div class="max-w-5xl mx-auto text-center">
+            <h3 class="text-3xl md:text-5xl font-light leading-tight text-stone-900 mb-12">
+                "Kami percaya bahwa setiap transaksi adalah tentang <span class="accent-color italic">pengalaman</span>, bukan sekadar pertukaran."
+            </h3>
+            <div class="w-16 h-px bg-stone-300 mx-auto mb-12"></div>
+            <p class="text-stone-500 text-lg font-light max-w-2xl mx-auto leading-relaxed">
+                Berbasis di jantung City Road, London, Fayee Limited membangun jembatan digital antara produsen inovatif dan konsumen yang menghargai detail dan fungsionalitas.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="py-32 px-6 bg-white">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-16">
+            <div class="space-y-6">
+                <div class="h-[400px] overflow-hidden bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-1000" alt="Curated Products">
+                </div>
+                <h4 class="text-xl font-bold uppercase tracking-widest">Global Sourcing</h4>
+                <p class="text-stone-500 text-sm leading-relaxed font-light">Mencari produk unik dari seluruh penjuru dunia untuk memastikan kualitas yang melampaui ekspektasi pelanggan.</p>
+            </div>
+            <div class="space-y-6 md:mt-20">
+                <div class="h-[400px] overflow-hidden bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-1000" alt="E-commerce Solutions">
+                </div>
+                <h4 class="text-xl font-bold uppercase tracking-widest">Seamless Retail</h4>
+                <p class="text-stone-500 text-sm leading-relaxed font-light">Teknologi pembayaran dan antarmuka belanja yang dirancang untuk kenyamanan tanpa batas di semua perangkat.</p>
+            </div>
+            <div class="space-y-6">
+                <div class="h-[400px] overflow-hidden bg-stone-100">
+                    <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaad5b?q=80&w=1936&auto=format&fit=crop" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-1000" alt="Fast Logistics">
+                </div>
+                <h4 class="text-xl font-bold uppercase tracking-widest">Rapid Logistics</h4>
+                <p class="text-stone-500 text-sm leading-relaxed font-light">Sistem pergudangan dan pengiriman cerdas yang memastikan paket Anda tiba dengan aman dan tepat waktu.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-32 px-6 bg-stone-900 text-white">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
+            <div>
+                <h2 class="text-5xl font-light mb-8">Hubungi Kantor Pusat</h2>
+                <p class="text-stone-400 mb-12 text-lg font-light leading-relaxed">Siap bekerja sama atau memiliki pertanyaan mengenai kemitraan distribusi? Tim kami di London siap membantu Anda.</p>
+                
+                <div class="space-y-8">
+                    <div class="flex items-center gap-6">
+                        <i class="fas fa-map-marker-alt accent-color text-xl"></i>
+                        <div class="text-sm tracking-widest">
+                            <p class="font-bold uppercase mb-1">London Office</p>
+                            <p class="text-stone-400">124-128 City Road, London, EC1V 2NX, UK</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <i class="fas fa-envelope accent-color text-xl"></i>
+                        <div class="text-sm tracking-widest">
+                            <p class="font-bold uppercase mb-1">Email Inquiry</p>
+                            <p class="text-stone-400">contact@fayee.co.uk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="space-y-6">
+                <input type="text" placeholder="Nama Lengkap" class="w-full p-4 bg-transparent border-b border-stone-700 focus:outline-none focus:border-white transition font-light italic">
+                <input type="email" placeholder="Email" class="w-full p-4 bg-transparent border-b border-stone-700 focus:outline-none focus:border-white transition font-light italic">
+                <textarea rows="4" placeholder="Pesan Anda" class="w-full p-4 bg-transparent border-b border-stone-700 focus:outline-none focus:border-white transition font-light italic"></textarea>
+                <button class="bg-white text-stone-900 px-12 py-4 text-xs font-bold uppercase tracking-[0.3em] hover:bg-stone-200 transition">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-white text-stone-400 text-center border-t border-stone-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <span class="text-xl font-light tracking-[0.3em] text-stone-900 uppercase block mb-6">Fayee<span class="font-bold accent-color">.</span></span>
+            <p class="text-[10px] uppercase tracking-[0.4em] mb-4">Retail Sale via Internet | Registered in England & Wales</p>
+            <div class="flex justify-center space-x-8 text-stone-300 text-sm">
+                <a href="#" class="hover:text-stone-900 transition">Instagram</a>
+                <a href="#" class="hover:text-stone-900 transition">LinkedIn</a>
+                <a href="#" class="hover:text-stone-900 transition">Terms</a>
+            </div>
+            <div class="mt-8 text-[10px]">
+                &copy; 2026 Fayee Limited. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
